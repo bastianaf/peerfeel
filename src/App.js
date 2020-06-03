@@ -25,7 +25,7 @@ function App() {
       <div className="container">
 
         <div>
-          <img src={DevGuy} width="auto" height="480" ></img>
+          <img src={DevGuy} width="auto" height="480" alt="helloworld" ></img>
         </div>
 
         <div>
