@@ -8,8 +8,8 @@ import DevGuy from './devguy.svg'
 
 function Copyright() {
   return (
-    <div className="footer">
-      <Typography variant="body2" color="textSecondary" align="center">
+    <div class="footer">
+      <Typography variant="body2" color="#FFFFFF" align="center">
         {'Made with '}<Icon>free_breakfast</Icon> {'from the end of the world'}
       </Typography>
     </div>
@@ -20,11 +20,11 @@ function Copyright() {
 function App() {
 
   return (
-    <div className="App">
-      <div className="skewe"></div>
-      <div className="container">
+    <div class="App">
+      <div class="skewe"></div>
+      <div class="container">
 
-      <div className="pt-3 mt-3">
+      <div class="">
         <div class="center pt-5 mt-5">
             <img src={DevGuy} width="auto" height="480" alt="helloworld" ></img>
         </div>
@@ -32,34 +32,17 @@ function App() {
        
 
         <div>
-          <div class="pt-3">
+          <div class="">
             <Home></Home>
           </div>
-          <Copyright />
         </div>
+      </div>
+
+      <div class="">
+          <Copyright />
       </div>
     </div>
   );
 }
 
 export default App
-
-
-/**local_cofe
- *
- *   <header className="App-header">
-
-      </header>
- *  <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
- */
