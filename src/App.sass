@@ -1,5 +1,8 @@
+@import "~bootstrap/scss/bootstrap"
+
 .App
   text-align: center
+  background-color: #9999C3
 
 .App-logo
   height: 40vmin
@@ -8,19 +11,8 @@
 @media (prefers-reduced-motion: no-preference)
   .App-logo
     animation: App-logo-spin infinite 20s linear
-
-.App-header
-  background-color: #282c34
-  min-height: 100vh
-  display: flex
-  flex-direction: column
-  align-items: center
-  justify-content: center
-  font-size: calc(10px + 2vmin)
-  color: white
-
-.App-link
-  color: #61dafb
+  .App-link
+  color: #93A8AC
 
 @keyframes App-logo-spin
   from
@@ -29,36 +21,33 @@
   to
     transform: rotate(360deg)
 
-.body 
-	display: block
-	background-color: #81a1c1 !important
 .skewe
 
-	position: absolute 
-	top: 0 
-	bottom: 0 
-	right: 0 
-	left: 0 
-	width: 100% 
-	height: 40% 
-	z-index: -1
-	background: #81a1c1 
-	-webkit-transform: skewY(5deg) 
-	transform: skewY(5deg) 
-	-webkit-transform-origin: top right 
-	transform-origin: top right 
+  position: absolute
+  top: 0
+  bottom: 0
+  right: 0
+  left: 0
+  width: 100%
+  height: 50%
+  z-index: 0
+  background: #FFFFFF !important
+  -webkit-transform: skewY(5deg)
+  transform: skewY(7deg)
+  -webkit-transform-origin: top right
+  transform-origin: top right
 
-.container	
-    margin: 0 auto
-    max-width: 860px
-    min-height: 100vh
-    overflow: hidden
-    display: block
-    position: relative
+.container
+  margin: 0 auto
+  max-width: 860px
+  min-height: 100vh
+  overflow: hidden
+  display: block
+  position: relative
 
 .footer
-	display: block
-    bottom: 0
-    padding: 1vh 0
-    width: 100%
-    color: #4c566a	
+  display: block
+  bottom: 0
+  padding: 1vh 0
+  width: 100%
+  color: #4c566a

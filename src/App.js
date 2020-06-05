@@ -24,12 +24,15 @@ function App() {
       <div className="skewe"></div>
       <div className="container">
 
-        <div>
-          <img src={DevGuy} width="auto" height="480" alt="helloworld" ></img>
+      <div className="pt-3 mt-3">
+        <div class="center pt-5 mt-5">
+            <img src={DevGuy} width="auto" height="480" alt="helloworld" ></img>
         </div>
+      </div>
+       
 
         <div>
-          <div class="">
+          <div class="pt-3">
             <Home></Home>
           </div>
           <Copyright />
