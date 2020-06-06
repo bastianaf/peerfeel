@@ -9,7 +9,7 @@ import DevGuy from './devguy.svg'
 function Copyright() {
   return (
     <div class="footer">
-      <Typography variant="body2" color="#FFFFFF" align="center">
+      <Typography variant="body2" color="" align="center">
         {'Made with '}<Icon>free_breakfast</Icon> {'from the end of the world'}
       </Typography>
     </div>
