@@ -19,7 +19,7 @@ function Copyright() {
   return (
     <div class="footer">
       <Typography variant="body2" color="" align="center">
-        {'@avflo'}
+        &#128293; {'@avflo'}
       </Typography>
     </div>
 
