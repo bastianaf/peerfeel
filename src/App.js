@@ -1,48 +1,30 @@
 import React from 'react'
 import Home from './components/Home'
 import Typography from '@material-ui/core/Typography'
-import Icon from '@material-ui/core/Icon'
-import './App.sass'
-import DevGuy from './devguy.svg'
-//import logo from './logo.svg'
+import './assets/index.css';
+
+function App() {
+
+  return (
+    <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
+          <Home></Home>
+      <div class="py-6 my-5">
+          <Copyright />
+      </div>
+    </div>
+  );
+}
 
 function Copyright() {
   return (
     <div class="footer">
       <Typography variant="body2" color="" align="center">
-        {'Made with '}<Icon>free_breakfast</Icon> {'from the end of the world'}
+        {'@avflo'}
       </Typography>
     </div>
 
   );
 }
 
-function App() {
-
-  return (
-    <div class="App">
-      <div class="skewe"></div>
-      <div class="container">
-
-      <div class="">
-        <div class="center pt-5 mt-5">
-            <img src={DevGuy} width="auto" height="480" alt="helloworld" ></img>
-        </div>
-      </div>
-       
-
-        <div>
-          <div class="">
-            <Home></Home>
-          </div>
-        </div>
-      </div>
-
-      <div class="">
-          <Copyright />
-      </div>
-    </div>
-  );
-}
 
 export default App
