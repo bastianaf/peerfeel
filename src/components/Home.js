@@ -16,7 +16,7 @@ function Home(){
               </div>
               <div class="divide-y divide-gray-200">
                 <div class="pb-8 text-base leading-6 space-y-4 text-gray-700 sm:text-lg sm:leading-7">
-                  <p class="font-sans text-5xl"> Bastian Avila</p>
+                  <p class="font-sans text-5xl"> Bastián Ávila</p>
                   <p class="">
                         Software Engineer
                   </p>
@@ -37,7 +37,12 @@ function Home(){
                 </div>
                 <div class="pt-6 text-base leading-6 font-bold sm:text-lg sm:leading-7">
                   <p>
-                    <a href="https://www.notion.so/bastianaf/Bastian-Avila-5593d954972a46bba67ab6de8de30f92" target="__blank" class="text-cyan-600 hover:text-cyan-700"> más sobre mi &rarr; </a>
+                    <a href="https://bastianaf.notion.site/Bastian-vila-86e45460d56e4ee08f3e5f4a0b190260" 
+                      id="more about me"
+                      target="__blank"
+                      class="text-cyan-600 hover:text-cyan-700">
+                         más sobre mi &rarr;
+                    </a>
                   </p>
                 </div>
               </div>
