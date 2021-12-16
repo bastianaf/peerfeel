@@ -6,13 +6,14 @@ import './assets/index.css';
 
 function App() {
   return (
-        <div>
-          <div class="min-h-screen bg-gray-100 py-6 flex flex-col justify-center sm:py-12">
-              <Home></Home>
-            <div class="py-6 my-5">
+        <div class="bg-gray-100">
+          <div class="py-5 my-5 min-h-48 flex flex-col justify-center"> 
+            <Home></Home>    
+            <div class="py-4 my-3">
               <Copyright />
-            </div>
+            </div>        
           </div>
+
         </div>
   );
 }
